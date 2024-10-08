@@ -44,3 +44,13 @@ p.d-lg-none.d-xl-none.ml-2 {
     margin-top: -15px;
 }
 
+.navbar{
+    background-color: red !important;
+
+}
+
+.navbar-transparent{
+    background-color: transparent !important;
+
+}
+
