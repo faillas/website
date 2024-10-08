@@ -1,0 +1,151 @@
+{
+    "curriculum": {
+        "authorization": "I authorize the processing of personal data contained in my curriculum vitae based on art. 13 of Legislative Decree no. 196/2003 and art. 13 GDPR 679/16.",
+        "date": "24/01/2024",
+        "image": "https://firebasestorage.googleapis.com/v0/b/simone-failla.appspot.com/o/profile-cv.png?alt=media&token=a7730d65-2c1f-403a-bcbf-ebee3978ba92",
+        "image-width": "800",
+        "informations": {
+            "address": "via Goya 2A, 56017, PI, Italy",
+            "birth": "21/05/1994",
+            "email": "simonefailla@icloud.com",
+            "linkedin": "https://www.linkedin.com/in/simone-failla/",
+            "phone": "+39 3519782021",
+            "website": "https://simone-failla.web.app/home"
+        },
+        "languages": {
+            "english": {
+                "comprension": {
+                    "listen": "B1",
+                    "read": "B2"
+                },
+                "speaking": {
+                    "interaction": "B1",
+                    "oral": "B1"
+                },
+                "write": "B2"
+            },
+            "italian": "native language"
+        },
+        "location": "Pisa",
+        "other": {
+            "driving_license": "B, self-employed",
+            "learning": [
+                "F.a.d. general volunteer/worker training: PPE; risks and accidents at work",
+                "F.a.d. safety and health in the social/health sector: health and safety at work"
+            ],
+            "publications": [
+                "Failla S., Martinelli M., Del Soldato A - La Digital Fingerprint; online"
+            ],
+            "subscriptions": [
+                "Registered at the Pisa employment center since 07/08/2013"
+            ]
+        },
+        "skills": {
+            "comunication": [
+                "Transparency and diplomacy in an informal and fluent language",
+                "Good aptitude for telematic communication"
+            ],
+            "digital": [
+                "Website management via CMS",
+                "Production of technical documentation with Markdown",
+                "Social media management, also via Postpickr",
+                "Basic graphic design with Photoshop and Illustrator",
+                "UX/UI design with Adobe XD",
+                "Languages, tools and frameworks used for university and work projects: HTML, CSS,/SCSS Javascript, Python, XML, XSL, PHP, MySql, Vue, Django, Boostrap, Angular, Tailwind, NLTK and Nuxt."
+            ],
+            "management": [
+                "Pursue objectives by comparing myself with the client/employer step by step, respecting the expected timescales as much as possible"
+            ],
+            "professional": [
+                "Photography, web design and programming"
+            ]
+        },
+        "training": [
+            {
+                "dates": "05/02/2021 - 15/03/2022",
+                "description": [
+                    "Digital Forensics, GDPR, network security & social hacking, applied cryptography, cyber intelligence, operating system security."
+                ],
+                "istitute": "University of Pisa",
+                "title": "1ST LEVEL MASTER IN CYBERSECURITY"
+            },
+            {
+                "dates": "25/09/2017 - 04/06/2020",
+                "description": [
+                    "Web development, multimedia production, humanities",
+                    "Experimental thesis on the importance of Instagram content in modern Italian theatre; using programs written in Python and regular expressions for text and image analysis, Instaloader, NLTK and DyLan."
+                ],
+                "istitute": "University of Pisa",
+                "title": "BACHELOR'S DEGREE IN DIGITAL HUMANITIES"
+            },
+            {
+                "dates": "Giugno 2016",
+                "description": [
+                    "Computer and online essentials, online essentials, IT security, M. office"
+                ],
+                "istitute": "AICA association",
+                "title": "ECDL STANDARD"
+            },
+            {
+                "dates": "04/07/2013",
+                "description": [
+                    "Estimate, topography, technical drawing, systems"
+                ],
+                "istitute": "I.T.G. E. Santoni, Pisa",
+                "title": "SURVEYOR'S DIPLOMA"
+            }
+        ],
+        "white-space": "10rem",
+        "works": [
+            {
+                "agency": "ITmind s.r.l.",
+                "contract": "apprenticeship",
+                "date": "01/09/2022 - ad ora",
+                "description": [
+                    "Languages: Typescript, Javascript, CSS/SCSS, HTML, Dart, Markdown",
+                    "Frameworks: Vue 3, Nuxt 3, Flutter, Bootstrap 5, Tailwind, October CMS",
+                    "Development of graphic interfaces, websites and technical documentation",
+                    "UX/UI design with Adobe Photoshop and Adobe XD"
+                ],
+                "location": "Lucca",
+                "title": "WEB AND MOBILE DEVELOPER"
+            },
+            {
+                "agency": "Sinergystudio s.r.l.",
+                "contract": "apprenticeship",
+                "date": "01/08/2021 - 24/05/2022",
+                "description": [
+                    "Languages: Typescript, Javascript, CSS/SCSS, HTML, C#",
+                    "Frameworks: Angular 12, .NET 5",
+                    "Development, versioning with Git, testing and debugging",
+                    "Graphic interventions and use of flexboxes via CSS and HTML"
+                ],
+                "location": "Pisa",
+                "title": "SOFTWARE DEVELOPER"
+            },
+            {
+                "agency": "Hibo s.r.l.",
+                "contract": "internship",
+                "date": "01/07/2020 - 31/12/2020",
+                "description": [
+                    "Creation of web pages from backd using Drupal and Typo3",
+                    "CSS and HTML insertion, testing and debugging of websites",
+                    "Post-production of photos using Photoshop"
+                ],
+                "location": "Bologna",
+                "title": "WEB DEVELOPER"
+            },
+            {
+                "agency": "Ente Culturale Azul Teatro",
+                "contract": "curricular internship",
+                "date": "29/10/2019 - 05/01/2020",
+                "description": [
+                    "Social media management: design and programming of content, publications and events on Linkedin, Instagram, Facebook and Twitter",
+                    "Photos of scenography, performance, backstage and audience"
+                ],
+                "location": "Lucca",
+                "title": "SOCIAL MEDIA MANAGER"
+            }
+        ]
+    }
+}

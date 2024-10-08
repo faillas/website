@@ -1,0 +1,152 @@
+{
+    "curriculum": {
+      "authorization": "Autorizzo il trattamento dei dati personali contenuti nel mio curriculum vitae in base all’art. 13 del D. Lgs. 196/2003 e all’art. 13 GDPR 679/16.",
+      "date": "24/01/2024",
+      "image": "https://firebasestorage.googleapis.com/v0/b/simone-failla.appspot.com/o/profile-cv.png?alt=media&token=a7730d65-2c1f-403a-bcbf-ebee3978ba92",
+      "image-width": "800",
+      "informations": {
+        "address": "via Goya 2A, 56017, PI, Italia",
+        "birth": "21/05/1994",
+        "email": "simonefailla@icloud.com",
+        "linkedin": "https://www.linkedin.com/in/simone-failla/",
+        "phone": "+39 3519782021",
+        "website": "https://simone-failla.web.app/home"
+      },
+      "languages": {
+        "english": {
+          "comprension": {
+            "listen": "B1",
+            "read": "B2"
+          },
+          "speaking": {
+            "interaction": "B1",
+            "oral": "B1"
+          },
+          "write": "B2"
+        },
+        "italian": "madre lingua"
+      },
+      "location": "Pisa",
+      "other": {
+        "driving_license": "B, automunito",
+        "learning": [
+            "F.a.d. formazione generale volontario/lavoratore: D.P.I.; rischi e incidenti sul lavoro",
+            "F.a.d. sicurezza e salute in ambito sociale/sanitario: salute e sicurezza sul lavoro"
+        ],
+        "publications": [
+          "Failla S., Martinelli M., Del Soldato A - La Digital Fingerprint; online"
+        ],
+        "subscriptions": [
+            "Iscritto al centro dell'impiego di Pisa dal 08/07/2013"
+        ]
+      },
+      "skills": {
+        "comunication": [
+            "Trasparenza e diplomazia in un linguaggio informale e fluente",
+            "Buona attitudine alla comunicazione telematica"
+        ],
+        "digital": [
+            "Gestione siti web tramite CMS",
+            "Produzione di documentazione tecnica con Markdown",
+            "Gestione social media, anche tramite Postpickr",
+            "Progettazione grafica di base con Photoshop e Illustrator",
+            "UX/UI design con Adobe XD",
+            "Linguaggi, tools e framework usati per progetti universitari e lavoro: HTML, CSS,/SCSS Javascript, Python, XML, XSL, PHP, MySql, Vue, Django, Boostrap, Angular,  Tailwind, NLTK e Nuxt."
+        ],
+        "management": [
+            "Perseguire obiettivi confrontandomi con il cliente/datore di lavoro passo per passo rispettando il più possibile i tempi previsti"
+        ],
+        "professional": [
+            "Fotografia, progettazione e programmazione web"
+        ] 
+      },
+      "training": [
+        {
+          "dates": "05/02/2021 - 15/03/2022",
+          "description": [
+              "Digital Forensics, GDPR, network security & social hacking, applied cryptography, cyber intelligence, operating system security."
+          ],
+          "istitute": "università di Pisa",
+          "title": "MASTER 1° LIVELLO IN CYBERSECURITY"
+        },
+        {
+          "dates": "25/09/2017 - 04/06/2020",
+          "description": [              
+              "Sviluppo web, produzione multimediale, discipline umanistiche",
+              "Tesi sperimentale sull’importanza dei contenuti di Instagram nel teatro moderno italiano; usando programmi scritti in Python ed espressioni regolari per l’analisi testuali e delle immagini, Instaloader, NLTK e DyLan. "
+          ],
+          "istitute": "università di Pisa",
+          "title": "LAUREA TRIENNALE IN INFORMATICA UMANISTICA"
+        },
+        {
+          "dates": "Giugno 2016",
+          "description": [
+              "Computer and online essentials, online essentials, IT security, M. office"
+          ],
+          "istitute": "associazione AICA",
+          "title": "ECDL STANDARD"
+        },
+        {
+          "dates": "04/07/2013",
+          "description": [
+              "Estimo, topografia, disegno tecnico, impianti"
+          ],
+          "istitute": "I.T.G. E. Santoni, Pisa",
+          "title": "DIPLOMA DI GEOMETRA"
+        }
+      ],
+      "white_space": "10rem",
+      "works": [
+        {
+          "agency": "ITmind s.r.l.",
+          "contract": "apprendistato",
+          "date": "01/09/2022 - ad ora",
+          "description": [
+              "Linguaggi: Typescript, Javascript, CSS/SCSS, HTML, Dart, Markdown",
+              "Framework: Vue 3, Nuxt 3, Flutter, Bootstrap 5, Tailwind, October CMS",
+              "Sviluppo interfacce grafiche, siti web e documentazione tecnica",
+              "UX/UI design con Adobe Photoshop e Adobe XD "
+          ],
+          "location": "Lucca",
+          "title": "WEB E MOBILE DEVELOPER"
+        },
+        {
+          "agency": "Sinergystudio s.r.l.",
+          "contract": "apprendistato",
+          "contract-en": "apprenticeship",
+          "date": "01/08/2021 - 24/05/2022",
+          "description": [
+              "Linguaggi: Typescript, Javascript, CSS/SCSS, HTML, C#",
+              "Framework: Angular 12, .NET 5",
+              "Sviluppo, versionamento con Git, testing e debug",
+              "Interventi grafici e uso delle flexbox tramite CSS e HTML"
+          ],
+          "location": "Pisa",
+          "title": "SOFTWARE DEVELOPER"
+        },
+        {
+          "agency": "Hibo s.r.l.",
+          "contract": "stage",
+          "date": "01/07/2020 - 31/12/2020",
+          "description": [
+              "Creazione pagine web da back-end mediante Drupal e Typo3",
+              "Inserimento CSS e HTML, testing e debug di siti web",
+              "Post-produzione di foto mediante Photoshop"
+          ],
+          "location": "Bologna",
+          "title": "WEB DEVELOPER"
+        },
+        {
+          "agency": "Ente Culturale Azul Teatro",
+          "contract": "tirocinio curriculare",
+          "date": "29/10/2019 - 05/01/2020",
+          "description": [
+              "Gestione social media: progettazione e programmazione di contenuti, pubblicazioni ed eventi su Linkedin, Instagram, Facebook e Twitter",
+              "Foto di scenografia, performance, backstage e pubblico"
+          ],
+          "location": "Lucca",
+          "title": "SOCIAL MEDIA MANAGER"
+        }
+      ]
+    }
+  }
