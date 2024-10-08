@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+
+h2,h3,h4,h5,h6,p{
+    padding-top: 20px;
+}
+
+.timeline * + .line {
+margin-top: 9px;
+}
+
+.timeline .line {
+position: relative;
+height: 17px;
+border-left: 1px solid #aeb1be;
+}
+
+.timeline .line:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 2px;
+    transform: translateY(-50%);
+    border-top: 1px solid #aeb1be;
+    width: 20vw;
+}
+
+.margins-title-timeline{
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 991px){
+    .navbar .navbar-nav a.nav-link p {
+        display: inline-block;
+        margin-left: 7px;
+        color: #fff;
+        margin-top: -18px;
+    }
+}
+
+p.d-lg-none.d-xl-none.ml-2 {
+    margin-top: -15px;
+}
+
