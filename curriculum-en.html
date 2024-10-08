@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simone Failla - Curriculum</title>
+  <style>
+    #curriculum {
+      background-image: url("./assets/sfondo.jpg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      padding-left: 100px;
+      padding-right: 50px;
+      background-color: white !important;
+    }
+    .header {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      letter-spacing: 1.10rem;
+      padding: 2rem;
+    }
+    .informations {
+      margin-top: 30px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      padding-bottom: 2rem;
+    }
+    .image {
+      flex-basis: 10rem;
+      padding-left: 2rem;
+    }
+    .avatar {
+      vertical-align: middle;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    .table-informations {
+      flex-basis: 90%;
+    }
+    .title-cv {
+      font-size: 1.5rem;
+      text-align: center;
+      padding-top: 20px;
+      color: #bd5025;
+      border-bottom: 1px solid #bd5025;
+    }
+    .title-voice {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+    li {
+      list-style-image: url("./assets/star.svg");
+    }
+    table,
+    tr td {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1rem;
+    }
+    ul li {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1rem;
+      color: black;
+    }
+    .sans-serif {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.75rem;
+    }
+    .footer-cv {
+      text-align: right;
+      display: flex;
+      justify-content: end;
+      justify-items: end;
+      align-items: end;
+      padding-bottom: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="curriculum" style="display:flex; flex-direction:column">
+    <div>
+      <div class="header">
+        <span style="font-size: 2rem; letter-spacing: 0.15rem; border-bottom:1px solid lightgrey">
+          SIMONE FAILLA
+        </span><br>
+        <span style="margin-left:12px; margin-top:30px">
+          CURRICULUM
+        </span>
+      </div>
+      <div class="informations">
+        <div class="image" style="margin-right: 30px">
+          <img id="avatar" src="./assets/profile-cv.png" width="150" alt="Avatar" />
+        </div>
+        <div class="table-informations">
+          <table>
+            <tr>
+              <td>🌎</td>
+              <td id="birth"></td>
+            </tr>
+            <tr>
+              <td>📍</td>
+              <td id="address"></td>
+            </tr>
+            <tr>
+              <td>📞</td>
+              <td id="phone"></td>
+            </tr>
+            <tr>
+              <td>✉️</td>
+              <td id="email"></td>
+            </tr>
+            <tr>
+              <td>🧭</td>
+              <td>
+                <a href="#" id="website" target="_blank"></a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="./assets/linkedin.png" width="25"/>
+              </td>
+              <td>
+                <a href="#" id="linkedin" target="_blank"></a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="works">
+        <p class="title-cv">ESPERIENZE LAVORATIVE</p>
+        <table style="border-bottom:1px solid #bd5025; width:94%" id="work-experiences">
+        </table>
+      </div>
+      <!-- Training Section -->
+      <div class="training">
+        <p class="title-cv">FORMAZIONE</p>
+        <table style="border-bottom:1px solid #bd5025; width:94%" id="training"></table>
+      </div>
+      <!-- Language Section -->
+      <div class="languages">
+        <p class="title-cv">LANGUAGES</p>
+        <table style="border-bottom: 1px solid silver;width:88%">
+          <tr >
+            <td style="font-weight: bold;">NATIVE LANGUAGE</td>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <td colspan="10" style="border-bottom: 1px solid silver;"></td>
+          </tr>
+          
+          <tr style="border-top: 1px solid silver;">
+            <td style="font-weight: bold;">ENGLISH</td>
+            <td>
+              <table style="width: 100%;">
+                <tr style="text-align:center;">
+                  <td>Listen</td>
+                  <td>Read</td>
+                  <td>Interaction</td>
+                  <td>Oral</td>
+                  <td>Written</td>
+                </tr>
+                <tr style="text-align:center;">
+                  <td id="english-listen"></td>
+                  <td id="english-read"></td>
+                  <td id="english-interaction"></td>
+                  <td id="english-oral"></td>
+                  <td id="english-write"></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        
+      </div>
+
+      <!-- Skills Section -->
+      <div class="skills">
+        <p class="title-cv">COMPETENZE</p>
+        <table style="width:92%" id="skills">
+          <!-- Skills will be dynamically generated here -->
+        </table>
+      </div>
+
+      <!-- Other Information Section -->
+      <div class="other">
+        <p class="title-cv">ULTERIORI INFORMAZIONI</p>
+        <table style="width:92%" id="other-info">
+          <!-- Other information will be dynamically generated here -->
+        </table>
+      </div>
+
+      <div class="footer-cv">
+        <img src="./assets/img/logo.png" width="100" />
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/curriculum-en.js" type="text/javascript"></script>
+</body>
+</html>
