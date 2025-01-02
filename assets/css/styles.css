@@ -54,3 +54,23 @@ p.d-lg-none.d-xl-none.ml-2 {
 
 }
 
+
+.night-fade{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.young-passion{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+
+.ripe-malinka{
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+
+.true-sunset{
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.wild-apple{
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+}
