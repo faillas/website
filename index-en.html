@@ -14,304 +14,1108 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
  -->
 
- <!DOCTYPE html>
- <html lang="en">
- 
- <head>
-   <meta charset="utf-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
-   <link rel="icon" type="image/png" href="./assets/img/favicon.png">
-   <title>Simone Failla - sviluppatore front-end, web e UX designer.</title>
-   <!--     Fonts and icons     -->
-   <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
-   <!-- Nucleo Icons -->
-   <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
-   <!-- CSS Files -->
-   <link href="./assets/css/blk-design-system.css?v=1.0.0" rel="stylesheet" />
-   <link href="./assets/css/styles.css" rel="stylesheet" />
-   <!-- CSS Just for demo purpose, don't include it in your project -->
-   <link href="./assets/demo/demo.css" rel="stylesheet" />
-   <link href="./assets/css/aos.css" rel="stylesheet">
-   <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
-   <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
-   <meta name="keyword" content="web design, sviluppo web, Toscana, Pisa, Italia, sviluppo, front-end, informatica umanistica, cybersecurity" />
-   <meta name="description" content="Sviluppo web con HTML, Javascript, SCSS, Angular, Vue, Nuxt, Tailwind, Bootstrap e MySQL." />
-   <meta name="google-site-verification" content="HikgVnSXWC2eYyRl2WS1sXpiyJTSJ9L-a-RvASX2qSY" /> 
-   <meta name="author" content="Simone Failla">
-   <meta name="description" content="Da sempre appassionato di letteratura e arti visive. Ho esperienza nello sviluppo web. Sono specializzato in UX/UI design e nello sviluppo front-end.">
-   <meta name="copyright" content="Simone Failla">
-   <meta name="generator" content="Visual Studio Code">
-   <meta name="robots" content="index">
-   <meta property="og:image" content="./assets/og_image.jpeg" />
- </head>
- 
- <body class="index-page">
-   <!-- Navbar -->
-   <nav
-     class="navbar navbar-expand-lg fixed-top navbar-transparent"
-     color-on-scroll="100"
-     id="navbar-top"
-   >
-     <div class="container">
-       <div class="navbar-translate">
-         <a
-           class="navbar-brand"
-           placement="bottom"
-           href="#"
-           tooltip="Simone Failla"
-         >
-         <img src="assets/img/logo.png" width="30" height="30"/>
-         </a>
-         <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-bar bar1"></span>
-           <span class="navbar-toggler-bar bar2"></span>
-           <span class="navbar-toggler-bar bar3"></span>
-         </button>
-       </div>
-       <div class="navbar-collapse justify-content-end" id="navigation">
-         <div class="navbar-collapse-header">
-           <div class="row">
-             <div class="col-6 collapse-brand"><a> Simone Failla </a></div>
-             <div class="col-6 collapse-close text-right">
-               <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-                 <i class="tim-icons icon-simple-remove"></i>
-               </button>
-             </div>
-           </div>
-         </div>
-         <ul class="navbar-nav">
-           <li class="nav-item p-0">
-             <a
-               class="nav-link"
-               href="#works"
-               placement="bottom"
-               class="btn btn-default btn-tooltip btn-sm" data-toggle="tooltip" data-placement="bottom" 
-               title="Works" data-container="body" data-animation="true"
-             >
-               <img width="20" style="color: white;" src="assets/img/svg/briefcase.svg">
-               <p class="d-lg-none d-xl-none"  >Works</p>
-             </a>
-           </li>
-           <li class="nav-item p-0">
-             <a
-               class="nav-link"
-               href="#training"
-               placement="bottom"
-               class="btn btn-default btn-tooltip btn-sm" data-toggle="tooltip" data-placement="bottom" 
-               title="Learning" data-container="body" data-animation="true"
-             >
-               <img width="25" style="color: white;" src="assets/img/svg/graduation-cap.svg">
-               <p class="d-lg-none d-xl-none"  >Learning</p>
-             </a>
-           </li>
-           <li class="nav-item p-0">
-             <a
-               class="nav-link"
-               href="#projects"
-               placement="bottom"
-               class="btn btn-default btn-tooltip btn-sm" data-toggle="tooltip" data-placement="bottom" 
-               title="Projects" data-container="body" data-animation="true"
-             >
-             <img width="20" style="color: white;" src="assets/img/svg/rocket.svg">
-               <p class="d-lg-none d-xl-none"  >Projects</p>
-             </a>
-           </li>
-           <li class="nav-item p-0 px-2 hidden d-lg-block d-xl-block">
-             <div class="d-flex" style="height: 30px; height: 30px;  background-color: white; width: 1px; margin-top:2px">
-               <div class="vr"></div>
-               <p class="d-lg-none d-xl-none ml-2"  ><strong>Social</strong></p>
-             </div>
-           </li>
-           <!-- <li class="nav-item p-0">
-             <a
-               class="nav-link"
-               href="https://twitter.com/CreativeTim"
-               placement="bottom"
-               target="_blank"
-               tooltip="Twitter"
-             >
-               <i class="fab fa-twitter"> </i>
-               <p class="d-lg-none d-xl-none">Twitter</p>
-             </a>
-           </li> -->
-           <li class="nav-item p-0">
-             <a
-               class="nav-link"
-               href="https://it.linkedin.com/in/simone-failla/en"
-               placement="bottom"
-               target="_blank"
-               class="btn btn-default btn-tooltip btn-sm" data-toggle="tooltip" data-placement="bottom" 
-               title="Linkedin" data-container="body" data-animation="true"
-             >
-             <img width="20" style="color: white;" src="assets/img/svg/linkedin.svg">
-               <p class="d-lg-none d-xl-none">Linkedin</p>
-             </a>
-           </li>
-           <li class="nav-item p-0">
-             <a
-               class="nav-link"
-               href="https://www.instagram.com/simone_d._failla/"
-               placement="bottom"
-               target="_blank"
-               class="btn btn-default btn-tooltip btn-sm" data-toggle="tooltip" data-placement="bottom" 
-               title="Instagram" data-container="body" data-animation="true"
-             >
-             <img width="20" style="color: white;" src="assets/img/svg/instagram.svg">
-               <p class="d-lg-none d-xl-none">Instagram</p>
-             </a>
-           </li>
-           <li class="nav-item p-0">
-             <a
-               class="nav-link"
-               href="https://github.com/faillas"
-               placement="bottom"
-               target="_blank"
-               class="btn btn-default btn-tooltip btn-sm" data-toggle="tooltip" data-placement="bottom" 
-               title="Github" data-container="body" data-animation="true"
-             >
-             <img width="20" style="color: white;" src="assets/img/svg/github.svg">
-               <p class="d-lg-none d-xl-none">Github</p>
-             </a>
-           </li>
-           <li class="dropdown nav-item" dropdown>
-             <a
-             class="dropdown-toggle nav-link dropdown-toggle uppercase"
-             data-toggle="dropdown"
-             dropdownToggle
-             href="javascript:void(0)"
-             >
-             <img width="20" style="color: white;" src="assets/img/svg/flag.svg">
-             </a>
-             <div class="dropdown-menu dropdown-with-icons" *dropdownMenu>
-               <a href="./index.html" class="dropdown-item uppercase" style="cursor:pointer;" >
-                 IT
-               </a>
-               <a href="./index-en.html"class="dropdown-item" style="cursor:pointer; background-color: red; color: white" >
-                 EN
-               </a> 
-             </div>
-           </li>
-         </ul>
-       </div>
-     </div>
-   </nav>
-   <div class="wrapper">
-     <div class="page-header header-filter">
-       <div class="squares square1"></div>
-       <div class="squares square2"></div>
-       <div class="squares square3"></div>
-       <div class="squares square4"></div>
-       <div class="squares square5"></div>
-       <div class="squares square6"></div>
-       <div class="squares square7"></div>
-       <div class="container" data-aos="zoom-in-up">
-         <div class="content-center brand" >
-           <img src="assets/img/home.png" />
-           <!-- <h1 class="h1-seo">Simone Failla • portfolio</h1> -->
-         </div>
-       </div>
-     </div>
-     <div class="page-header">
-       <img class="path" src="assets/img/blob.png" />
-       <!-- <img class="path2" src="assets/img/path2.png" /> -->
-       <img class="shapes triangle" src="assets/img/triunghiuri.png" />
-       <!-- <img class="shapes wave" src="assets/img/waves.png" /> -->
-       <!-- <img class="shapes squares" src="assets/img/patrat.png" /> -->
-       <!-- <img class="shapes circle" src="assets/img/cercuri.png" /> -->
-   
-       <div class="content-center">
-         <div class="row row-grid justify-content-between align-items-center text-left" >
-           <div class="col-lg-6 col-md-6">
-             <h1 class="text-white title"  >
-                Welcome in My<br />
-   
-               <span class="text-white"> Website </span>
-             </h1>
-             <p id="intestazione" class="text-white mb-3"  >
-                I have always been passionate about literature and visual arts. 
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+  <title>Simone Failla - front-end developer, web e UX designer.</title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+  <!-- Nucleo Icons -->
+  <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="./assets/css/blk-design-system.css?v=1.0.0" rel="stylesheet" />
+  <link href="./assets/css/styles.css" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="./assets/demo/demo.css" rel="stylesheet" />
+  <link href="./assets/css/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+  <meta name="keyword" content="web design, web developer, Tuscany, Pisa, Italy, developing, front-end, digital humanities, cybersecurity" />
+  <meta name="description" content="Sviluppo web con HTML, Javascript, SCSS, Angular, Vue, Nuxt, Tailwind, Bootstrap e MySQL." />
+  <meta name="google-site-verification" content="HikgVnSXWC2eYyRl2WS1sXpiyJTSJ9L-a-RvASX2qSY" /> 
+  <meta name="author" content="Simone Failla">
+  <meta name="description" content="I have always had a passion for literature and the visual arts. I have experience in web development, with a specialization in UX/UI design and front-end development.">
+  <meta name="copyright" content="Simone Failla">
+  <meta name="generator" content="Visual Studio Code">
+  <meta name="robots" content="index">
+  <meta property="og:image" content="./assets/og_image.jpeg" />
+</head>
+
+<body class="index-page">
+  <!-- Navbar -->
+  <nav
+    class="navbar navbar-expand-lg fixed-top navbar-transparent"
+    color-on-scroll="100"
+    id="navbar-top"
+  >
+    <div class="container">
+      <div class="navbar-translate">
+        <a
+          class="navbar-brand"
+          placement="bottom"
+          href="#"
+          tooltip="Simone Failla"
+        >
+        <img src="assets/img/logo.png" width="30" height="30"/>
+        </a>
+        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-bar bar1"></span>
+          <span class="navbar-toggler-bar bar2"></span>
+          <span class="navbar-toggler-bar bar3"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse justify-content-end" id="navigation">
+        <div class="navbar-collapse-header">
+          <div class="row">
+            <div class="col-6 collapse-brand"><a> Simone Failla </a></div>
+            <div class="col-6 collapse-close text-right">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="tim-icons icon-simple-remove"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <ul class="navbar-nav">
+          <li class="nav-item p-0">
+            <a
+              class="nav-link"
+              href="#works"
+              placement="bottom"
+              class="btn btn-default btn-tooltip btn-sm" data-toggle="tooltip" data-placement="bottom" 
+              title="Lavori" data-container="body" data-animation="true"
+            >
+              <img width="20" style="color: white;" src="assets/img/svg/briefcase.svg">
+              <p class="d-lg-none d-xl-none"  >Works</p>
+            </a>
+          </li>
+          <li class="nav-item p-0">
+            <a
+              class="nav-link"
+              href="#training"
+              placement="bottom"
+              class="btn btn-default btn-tooltip btn-sm" data-toggle="tooltip" data-placement="bottom" 
+              title="Formazione" data-container="body" data-animation="true"
+            >
+              <img width="25" style="color: white;" src="assets/img/svg/graduation-cap.svg">
+              <p class="d-lg-none d-xl-none"  >Learning</p>
+            </a>
+          </li>
+          <li class="nav-item p-0">
+            <a
+              class="nav-link"
+              href="#projects"
+              placement="bottom"
+              class="btn btn-default btn-tooltip btn-sm" data-toggle="tooltip" data-placement="bottom" 
+              title="Progetti" data-container="body" data-animation="true"
+            >
+            <img width="20" style="color: white;" src="assets/img/svg/rocket.svg">
+              <p class="d-lg-none d-xl-none"  >Projects</p>
+            </a>
+          </li>
+          <li class="nav-item p-0 px-2 hidden d-lg-block d-xl-block">
+            <div class="d-flex" style="height: 30px; height: 30px;  background-color: white; width: 1px; margin-top:2px">
+              <div class="vr"></div>
+              <p class="d-lg-none d-xl-none ml-2"  ><strong>Social</strong></p>
+            </div>
+          </li>
+          <!-- <li class="nav-item p-0">
+            <a
+              class="nav-link"
+              href="https://twitter.com/CreativeTim"
+              placement="bottom"
+              target="_blank"
+              tooltip="Twitter"
+            >
+              <i class="fab fa-twitter"> </i>
+              <p class="d-lg-none d-xl-none">Twitter</p>
+            </a>
+          </li> -->
+          <li class="nav-item p-0">
+            <a
+              class="nav-link"
+              href="https://it.linkedin.com/in/simone-failla/en"
+              placement="bottom"
+              target="_blank"
+              class="btn btn-default btn-tooltip btn-sm" data-toggle="tooltip" data-placement="bottom" 
+              title="Linkedin" data-container="body" data-animation="true"
+            >
+            <img width="20" style="color: white;" src="assets/img/svg/linkedin.svg">
+              <p class="d-lg-none d-xl-none">Linkedin</p>
+            </a>
+          </li>
+          <li class="nav-item p-0">
+            <a
+              class="nav-link"
+              href="https://github.com/faillas"
+              placement="bottom"
+              target="_blank"
+              class="btn btn-default btn-tooltip btn-sm" data-toggle="tooltip" data-placement="bottom" 
+              title="Github" data-container="body" data-animation="true"
+            >
+            <img width="20" style="color: white;" src="assets/img/svg/github.svg">
+              <p class="d-lg-none d-xl-none">Github</p>
+            </a>
+          </li>
+          <li class="dropdown nav-item" dropdown>
+            <a
+            class="dropdown-toggle nav-link dropdown-toggle uppercase"
+            data-toggle="dropdown"
+            dropdownToggle
+            href="javascript:void(0)"
+            >
+            <img width="20" style="color: white;" src="assets/img/svg/flag.svg">
+            </a>
+            <div class="dropdown-menu dropdown-with-icons" *dropdownMenu>
+              <a href="./index.html" class="dropdown-item uppercase" style="cursor:pointer; background-color: red; color: white" >
+                IT
+              </a>
+              <a href="./index-en.html"class="dropdown-item" style="cursor:pointer" >
+                EN
+              </a> 
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="wrapper">
+    <div class="page-header header-filter">
+      <div class="squares square1"></div>
+      <div class="squares square2"></div>
+      <div class="squares square3"></div>
+      <div class="squares square4"></div>
+      <div class="squares square5"></div>
+      <div class="squares square6"></div>
+      <div class="squares square7"></div>
+      <div class="container" data-aos="zoom-in-up">
+        <div class="content-center brand" >
+          <img src="assets/img/home.png" />
+          <!-- <h1 class="h1-seo">Simone Failla • portfolio</h1> -->
+        </div>
+      </div>
+    </div>
+    <div class="page-header">
+      <img class="path" src="assets/img/blob.png" />
+      <!-- <img class="path2" src="assets/img/path2.png" /> -->
+      <img class="shapes triangle" src="assets/img/triunghiuri.png" />
+      <!-- <img class="shapes wave" src="assets/img/waves.png" /> -->
+      <!-- <img class="shapes squares" src="assets/img/patrat.png" /> -->
+      <!-- <img class="shapes circle" src="assets/img/cercuri.png" /> -->
+  
+      <div class="content-center">
+        <div class="row row-grid justify-content-between align-items-center text-left" >
+        
+          <div class="col-lg-6 col-md-6">
+            <hr class="line-info">
+            <h1 class="text-white title"  >
+              Welcome in My<br />
+  
+              <span class="text-white"> sito </span>
+            </h1>
+            <p id="intestazione" class="text-white mb-3"  >
+               I have always been passionate about literature and visual arts. 
                 I have experience in the art of photography and web development. 
                 I am specialized in UX/UI design and front-end development.
-             </p>
-           </div>
-           <div class="col-lg-4 col-md-5" data-aos="zoom-in-left">
-             <img
-               alt="Circle image"
-               class="img-fluid"
-               src="assets/img/etherum.png"
-             />
-           </div>
-         </div>
-       </div>
-     </div>
-     <div id="works">
-       <!-- TIMELINE -->
-        <section class="section section-lg bg-gray-100 ">
-           <div class="container text-center">
-             <h2 class="title"  >My Work Experience</h2>
-             <div class="d-flex flex-column flex-md-row justify-content-center text-left gap-3 py-5" id="work-experiences">
-               <!-- <div class="timeline" *ngFor="let item of reversedList">
-                 <div class="date" >{{item.agency}}</div>
-                 <div class="line"></div>
-                 <h6 class="title margins-title-timeline pr-3" style="font-size: medium;">{{item.title}}</h6>
-                 <p class="exeption p-0">{{item.location}}</p>
-               </div>             -->
-             </div>
-           </div>
-         </section>
-     </div>
-   
-     <div id="training">
-       <div class="section section-nucleo-icons">
-         <img class="path" src="assets/img/path3.png" />
-         <div class="container">
-           <div class="row justify-content-center">
-             <div class="col-lg-8 col-md-12">
-               <h2 class="title"  >Learning</h2>
-             </div>
-           </div>
-           <div class="blur-hover" data-aos="zoom-out">
-             <a
-               class="text-danger"
-             >
-               <div class="icons-container blur-item on-screen mt-5">
-                 <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/html.svg"></i>
-                 <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/javascript.svg"></i>
-                 <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/css.svg"></i>
-                 <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/angular.svg"></i>
-                 <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/vue.svg"></i>
-                 <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/bug.svg"></i>
-                 <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/database.svg"></i>
-                 <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/terminal.svg"></i>
-                 <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/mobile.svg"></i>
-                 <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/desktop.svg"></i>
-                 <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/npm.svg"></i>
-                 <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/qrcode.svg"></i>
-                 <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/code-branch.svg"></i>
-               </div>
-               <span class="blur-hidden h2 text-white"  >
-                 <strong>
-                    I consider training the most important part of my job. <br>
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-5" data-aos="zoom-in-left">
+            <img
+              alt="Circle image"
+              class="img-fluid"
+              src="assets/img/etherum.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="works">
+      <!-- TIMELINE -->
+      <section class="section section-lg">
+      <img src="../assets/img/path4.png" class="path">
+      <img src="../assets/img/path2.png" class="path2">
+       <img src="../assets/img/path3.png" class="path">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <hr class="line-info">
+                <h1>My Work
+                  <span class="text-info">Experience</span>
+                </h1>
+              </div>
+            </div>
+      <div class="col-md-12">
+        <div class="card card-chart card-plain">
+          <div class="card-header">
+            
+          </div>
+          <div class="card-body">
+            <div class="chart-area">
+              <canvas id="chartBig"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+  
+    <div id="training">
+      
+      
+
+      <img src="../assets/img/path3.png" class="path">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <hr class="line-info">
+                <h1>academic and professional 
+                  <span class="text-info">training</span>
+                </h1>
+              </div>
+            </div>
+
+<section class="section ">
+  <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card card-coin card-plain">
+              <div class="card-header">
+                <img src="assets/img/infouma.jpg" class="img-center img-fluid rounded-circle">
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <h4 class="text-uppercase">Digital Humanities</h4>
+                    <span>Three-year undergraduate degree</span>
+                    <hr class="line-primary">
+                  </div>
+                </div>
+                <div class="row">
+                  <ul class="list-group">
+                    <li class="list-group-item">Text Encoding</li>
+                    <li class="list-group-item">Web design and programming</li>
+                    <li class="list-group-item">Graphic design</li>
+                    <li class="list-group-item">Multimedia design</li>
+                    <li class="list-group-item">Computational Linguistics</li>
+                    <li class="list-group-item">Databases</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-footer text-center">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-coin card-plain">
+              <div class="card-header">
+                <img src="assets/img/cybersecurity.jpg" class="img-center img-fluid rounded-circle">
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <h4 class="text-uppercase">Cybersecurity</h4>
+                    <span>First-level Master’s degree</span>
+                    <hr class="line-success">
+                  </div>
+                </div>
+                <div class="row">
+                  <ul class="list-group">
+                    <li class="list-group-item">Applied Cryptography</li>
+                    <li class="list-group-item">Digital Forensics</li>
+                    <li class="list-group-item">Cyber Intelligence</li>
+                    <li class="list-group-item">Operating System Security</li>
+                    <li class="list-group-item">Social Hacking</li>
+                    <li class="list-group-item">Data Mining</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-footer text-center">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-coin card-plain">
+              <div class="card-header">
+                <img src="assets/img/badges.jpg" class="img-center img-fluid rounded-circle">
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <h4 class="text-uppercase">Open Badges</h4>
+                    <span>Learning certificates</span>
+                    <hr class="line-success">
+                  </div>
+                </div>
+                <div class="row">
+                  <ul class="list-group">
+                    <li class="list-group-item">Ethics of Artificial Intelligence
+                    </li>
+                    <li class="list-group-item">Fundamentals of Project Management</li>
+                    <li class="list-group-item">Communication in the Digital Age</li>
+                    <li class="list-group-item">Managing Change</li>
+                    <li class="list-group-item">Managing Conflict</li>
+                    <li class="list-group-item">Designing and Creating Quality MOOCs</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-footer text-center">
+                <!-- <button class="btn btn-primary btn-simple">Vedili tutti</button>-->
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+
+      </div>
+
+</section>
+        
+      <div class="section section-nucleo-icons">
+        <img class="path" src="assets/img/path3.png" />
+        <div class="container">
+          <div class="blur-hover" data-aos="zoom-out">
+            <a
+              class="text-danger"
+            >
+              <div class="icons-container blur-item on-screen mt-5">
+                <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/html.svg"></i>
+                <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/javascript.svg"></i>
+                <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/css.svg"></i>
+                <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/angular.svg"></i>
+                <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/vue.svg"></i>
+                <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/bug.svg"></i>
+                <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/database.svg"></i>
+                <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/terminal.svg"></i>
+                <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/mobile.svg"></i>
+                <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/desktop.svg"></i>
+                <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/npm.svg"></i>
+                <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/qrcode.svg"></i>
+                <i class="icon icon-sm tim-icons"><img width="20" style="color: white;" src="assets/img/svg/code-branch.svg"></i>
+              </div>
+              <span class="blur-hidden h2 text-white"  >
+                <strong>
+                  I consider training the most important part of my job. <br>
                     Keeping up to date with technologies is essential.
-                 </strong>
-               </span>
-             </a>
-           </div>
-         </div>
-       </div>
-     </div> 
-   
-     <div id="projects">
-       <div class="section">
-         <div class="container">
-           <h2 class="title">Projects</h2>
+                </strong>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div> 
+  
+    <div id="projects">
+      
+
+      <!-- Nav tabs -->
+      <div class="card">
+        <div class="card-header">
+          <img src="../assets/img/path3.png" class="path">
+      <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <hr class="line-info">
+                <h1>Personal
+                  <span class="text-info">Projects</span>
+                </h1>
+              </div>
+            </div>
+      </div>
+          <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#link1" role="tablist">
+                <i class="tim-icons icon-bank"></i> All
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#link2" role="tablist">
+                <i class="tim-icons icon-mobile"></i> App Mobile
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#link3" role="tablist">
+                <i class="tim-icons icon-paper"></i> Encoding
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#link4" role="tablist">
+                <i class="tim-icons icon-planet"></i> Social
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#link5" role="tablist">
+                <i class="tim-icons icon-sound-wave"></i> Data analysis
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#link6" role="tablist">
+                <i class="tim-icons icon-lock-circle"></i> Cybersecurity
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="card-body">
+                  <!-- Tab panes -->
+                  <div class="tab-content tab-space">
+                    <div class="tab-pane active" id="link1">
+
+                      <section class="section hero">
+                        <div class="container">
+                          <div class="row justify-content-between">
+                            <div class="col-md-6">
+                              <div class="card  card-plain">
+                                  <div class="card-header">
+                                      <img src="assets/img/projects/hero.png" alt="Hero: your travels in one click" class="img-center img-fluid">          
+                                  </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col-md-5">
+                              <h1 class="profile-title text-left"></h1>
+                              <h5 class="text-on-back">00</h5>
+                              <p class="profile-description text-left">                            
+                                  A mobile application available in 5 different languages ​​for planning trips and itineraries, featuring the ability to: 
+                                <ul>
+                                  <li>log trips, including expenses and day-by-day planning</li>
+                                  <li>view logged trips in various formats: board, timeline, and image gallery</li>
+                                  <li>create notes</li>
+                                  <li>manage to-do lists</li>
+                                  <li>view travel statistics</li>
+                                </ul>
+                              </p>
+                              <div class="btn-wrapper pt-3">
+                                
+                                <p  ><strong>Languages: </strong>dart, SQLite</p>
+                                <p  ><strong>Framework: </strong>Flutter</p>
+                                <a href="https://github.com/faillas/hero-app" target="_blank">
+                                    <button class="btn btn-danger mr-1">
+                                      <img width="20" style="color: white;" src="assets/img/svg/github.svg"> Repository
+                                    </button>
+                                  </a>
+                                  <a href="https://faillas.github.io/hero-landing-page/">
+                                        <button class="btn btn-info mr-1"  >
+                                          <img width="20" style="color: white;" src="assets/img/svg/play.svg"> Landing page
+                                        </button>
+                                    </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                        
+                      <section class="section tesi">
+                          
+                          <div class="container">
+                            <div class="row justify-content-between">
+                              <div class="col-md-6">
+                                <div class="card  card-plain">
+                                  <div class="card-header">
+                                    <img src="assets/img/projects/tesi.png" alt="digital thesis" class="img-center img-fluid">            
+                                  </div>                 
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                              <h1 class="profile-title text-left"></h1>
+                              <h5 class="text-on-back">01</h5>
+                              <p class="profile-description">
+                                  <p>              
+                                      Coding of the degree thesis published via GitHub Pages using the Text Encoding Initiative tools and subsequent transformation into an HTML document with the possibility of:
+                                    </p>
+                                    <ul >
+                                      <li>change reading mode (light/dark)</li>
+                                      <li>scrolling chapters via indexing</li>
+                                      <li>see your reading progress</li>
+                                    </ul>
+                                    <p>
+                                      On this site there is the migration of the original project and its restyling.
+                                    </p
+                                </p>
+                              <div class="btn-wrapper profile pt-3">
+                                <a href="https://github.com/faillas/tesi.github.io" target="_blank">
+                                        <button class="btn btn-danger mr-1">
+                                          <img width="20" style="color: white;" src="assets/img/svg/github.svg"> Repository
+                                        </button>
+                                    </a>
+                              <a href="./thesis.html">
+                                        <button class="btn btn-info mr-1"  >
+                                          <img width="20" style="color: white;" src="assets/img/svg/play.svg"> Go to the thesis (IT)
+                                        </button>
+                                    </a>
+                              </div>
+                            </div>           
+                          </div>
+                            </div>
+                      </section>
+                        
+                      <section class="section clouds">
+                        <div class="container">
+                          <div class="row justify-content-between">
+                            <div class="col-md-6">
+                              <div class="card  card-plain">
+                                  <div class="card-header">
+                                      <img src="assets/img/projects/clouds3.png" alt="Clouds: a web app to menage blogs" class="img-center img-fluid">          
+                                  </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col-md-5">
+                              <h1 class="profile-title text-left"></h1>
+                              <h5 class="text-on-back">02</h5>
+                              <p class="profile-description text-left">                            
+                                  Application for creating blogs, posts and comments using a registerable and deletable account.  
+                                <ul>
+                                  <li>Favorite blogs</li>
+                                  <li>Themes of your choice</li>
+                                  <li>Content likes</li>
+                                  <li>A single dynamic page for viewing blogs</li>
+                                  <li>Erasable contents</li>
+                                </ul>
+                              </p>
+                              <div class="btn-wrapper pt-3">
+                                
+                                <p  ><strong>Languages: </strong>HTML, CSS, Javascript, MySQL, PHP</p>
+                                <p  ><strong>Libraries: </strong>jQuery</p>
+                                <a href="https://github.com/faillas/Clouds" target="_blank">
+                                    <button class="btn btn-danger mr-1">
+                                      <img width="20" style="color: white;" src="assets/img/svg/github.svg"> Repository
+                                    </button>
+                                  </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+
+                      <section class="section djangogram">
+                        <div class="container">
+                          <div class="row">
+                              <div class="col-md-6">
+                              <div class="card  card-plain">
+                                <div class="card-header">
+                                  <img src="assets/img/projects/djangogram.png" alt="Djangogram" class="img-center img-fluid">            
+                                </div>                 
+                              </div>
+                          </div>
+                            <div class="col-md-6">
+                              <div class="card card-plain">
+                                <div class="card-header">
+                                  <h1 class="profile-title text-left"></h1>
+                                  <h5 class="text-on-back">03</h5>
+                                </div>
+                                <div class="card-body">
+                                  <p>              
+                                  Corpus of Instagram profiles related to the theater in three codings for linguistic and visual analysis through the extraction of:
+                                </p>
+                                <ul>
+                                  <li>hashtag</li>
+                                  <li>tag</li>
+                                  <li>images</li>
+                                  <li>post</li>
+                                  <li>likes number</li>
+                                </ul>
+                                <p  ><strong>Languages: </strong>HTML, Python</p>
+                                <p  ><strong>Framework: </strong>Boostrap, Django</p>
+                                <p  ><strong>Tools: </strong>NLTK, DyLan, Instaloader, Pythonanywhere, Git</p>
+                              <a href="https://github.com/faillas/djangogram" target="_blank">
+                                    <button class="btn btn-danger mr-1">
+                                      <img width="20" style="color: white;" src="assets/img/svg/github.svg"> Repository
+                                    </button>
+                                  </a>  
+                              </div>
+                              </div>
+                            </div>
+                            
+                            
+                          </div>
+                        </div>
+                      </section>
+
+                      <section class="section cartoline">
+                        <div class="container">
+                          <div class="row">
+                              <div class="col-md-6">
+                              <div class="card  card-plain">
+                                <div class="card-header">
+                                  <img style="cursor:pointer"
+                                    alt="progetti Simone Failla: cartoline"
+                                    class="img-fluid rounded-start"
+                                    src="assets/img/projects/cartoline.png"
+                                  />           </div>                 
+                              </div>
+                          </div>
+                            <div class="col-md-6">
+                              <div class="card card-plain">
+                                <div class="card-header">
+                                  <h1 class="profile-title text-left"></h1>
+                                  <h5 class="text-on-back">04</h5>
+                                </div>
+                                <div class="card-body">
+                                  <p>              
+                                  Coding of two 19th century postcards at a diplomatic-interpretative level by marking the words:
+                                </p>
+                                <ul>
+                                  <li>archaic</li>
+                                  <li>ruined by the signs of time</li>
+                                  <li>not readable</li>
+                                </ul>
+                                <p><strong>Languages: </strong>HTML, CSS, Javascript, XML, DTD, XSL</p>
+                                <p><strong>Framework: </strong>Bootstrap</p> 
+                                <p><strong>Tools: </strong>Tei Roma</p>
+                                <a href="https://github.com/faillas/Cartoline" target="_blank">
+                                    <button class="btn btn-danger mr-1">
+                                      <img width="20" style="color: white;" src="assets/img/svg/github.svg"> Repository
+                                    </button>
+                                  </a>
+                              
+                              </div>
+                              </div>
+                            </div>
+                            
+                            
+                          </div>
+                        </div>
+                      </section>
+
+                      <section class="section projectwork">
+                        <div class="container">
+                          <div class="row">
+                              <div class="col-md-6">
+                              <div class="card  card-plain">
+                                <div class="card-header">
+                                  <img
+                                    alt="Projectwork: digital fingerprint"
+                                    class="card-img"
+                                    src="assets/img/projectwork.png"
+                                  />            </div>                 
+                              </div>
+                          </div>
+                            <div class="col-md-6">
+                              <div class="card card-plain">
+                                <div class="card-header">
+                                  <h1 class="profile-title text-left"></h1>
+                                  <h5 class="text-on-back">05</h5>
+                                </div>
+                                <div class="card-body">
+                                  <p>            
+                                  The purpose of this technical note is to illustrate the basic functioning of digital fingerprinting, indicate its vulnerabilities and indicate how it is used in digital forensics. Finally, specifically, the use and problems arising from the ABIS (Automated Biometric Information System) biometric system, developed by the American Department of Defense, will be illustrated.
+                                </p>
+                                <p>
+                                  Available online on the CNR People platform.
+                                </p>
+                              
+                              </div>
+                              </div>
+                            </div>
+                            
+                            
+                          </div>
+                        </div>
+                      </section> 
+
+                      <section class="section love-pack">
+                        <div class="container">
+                          <div class="row">
+                              <div class="col-md-6">
+                              <div class="card  card-plain">
+                                <div class="card-header">
+                                  <img
+                                    alt="Love pack: a web app to keep boredom at bay"
+                                    class="card-img"
+                                    src="assets/img/projects/lovepack.png"
+                                  />            </div>                 
+                              </div>
+                          </div>
+                            <div class="col-md-6">
+                              <div class="card card-plain">
+                                <div class="card-header">
+                                  <h1 class="profile-title text-left"></h1>
+                                  <h5 class="text-on-back">06</h5>
+                                </div>
+                                <div class="card-body">
+                                  <p>              
+                                  Love Pack is a small web app designed to turn your free time into an opportunity for connection, play, and well-being.
+                                  The concept is simple: a virtual box of activities that, once opened, randomly selects an action for you to carry out.
+                                  It’s perfect for group games, time spent with friends, moments as a couple, or simply for taking care of yourself.
+                                </p>
+                                <ul>
+                                  <li>Custom CSV upload</li>
+                                  <li>Random extraction of phrases</li>
+                                  <li>“How it works” section accessible at any time</li>
+                                </ul>
+                                <p><strong>Linguaggi: </strong>HTML, CSS, Javascript</p>
+                                <p><strong>Framework: </strong>No dependency</p> 
+                                <a href="https://github.com/faillas/love_pack" target="_blank">
+                                        <button class="btn btn-danger mr-1">
+                                          <img width="20" style="color: white;" src="assets/img/svg/github.svg"> Repository
+                                        </button>
+                                    </a>
+                                <a href="https://faillas.github.io/love_pack/">
+                                        <button class="btn btn-info mr-1"  >
+                                          <img width="20" style="color: white;" src="assets/img/svg/play.svg"> Go to the app (IT)
+                                        </button>
+                                    </a>
+                              
+                              </div>
+                              </div>
+                            </div>
+                            
+                            
+                          </div>
+                        </div>
+                      </section> 
+                    </div>
+
+                    <div class="tab-pane" id="link2">
+                       <section class="section hero">
+                        <div class="container">
+                          <div class="row justify-content-between">
+                            <div class="col-md-6">
+                              <div class="card  card-plain">
+                                  <div class="card-header">
+                                      <img src="assets/img/projects/hero.png" alt="Hero: your travels in one click" class="img-center img-fluid">          
+                                  </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col-md-5">
+                              <h1 class="profile-title text-left"></h1>
+                              <h5 class="text-on-back">00</h5>
+                              <p class="profile-description text-left">                            
+                                  A mobile application available in 5 different languages ​​for planning trips and itineraries, featuring the ability to: 
+                                <ul>
+                                  <li>log trips, including expenses and day-by-day planning</li>
+                                  <li>view logged trips in various formats: board, timeline, and image gallery</li>
+                                  <li>create notes</li>
+                                  <li>manage to-do lists</li>
+                                  <li>view travel statistics</li>
+                                </ul>
+                              </p>
+                              <div class="btn-wrapper pt-3">
+                                
+                                <p  ><strong>Languages: </strong>dart, SQLite</p>
+                                <p  ><strong>Framework: </strong>Flutter</p>
+                                <a href="https://github.com/faillas/hero-app" target="_blank">
+                                    <button class="btn btn-danger mr-1">
+                                      <img width="20" style="color: white;" src="assets/img/svg/github.svg"> Repository
+                                    </button>
+                                  </a>
+                                  <a href="https://faillas.github.io/hero-landing-page/">
+                                        <button class="btn btn-info mr-1"  >
+                                          <img width="20" style="color: white;" src="assets/img/svg/play.svg"> Landing page
+                                        </button>
+                                    </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+
+                    <div class="tab-pane" id="link3">
+                      <section class="section cartoline">
+                        <div class="container">
+                          <div class="row">
+                              <div class="col-md-6">
+                              <div class="card  card-plain">
+                                <div class="card-header">
+                                  <img style="cursor:pointer"
+                                    alt="progetti Simone Failla: cartoline"
+                                    class="img-fluid rounded-start"
+                                    src="assets/img/projects/cartoline.png"
+                                  />           </div>                 
+                              </div>
+                          </div>
+                            <div class="col-md-6">
+                              <div class="card card-plain">
+                                <div class="card-header">
+                                  <h1 class="profile-title text-left"></h1>
+                                  <h5 class="text-on-back">04</h5>
+                                </div>
+                                <div class="card-body">
+                                  <p>              
+                                  Coding of two 19th century postcards at a diplomatic-interpretative level by marking the words:
+                                </p>
+                                <ul>
+                                  <li>archaic</li>
+                                  <li>ruined by the signs of time</li>
+                                  <li>not readable</li>
+                                </ul>
+                                <p><strong>Languages: </strong>HTML, CSS, Javascript, XML, DTD, XSL</p>
+                                <p><strong>Framework: </strong>Bootstrap</p> 
+                                <p><strong>Tools: </strong>Tei Roma</p>
+                                <a href="https://github.com/faillas/Cartoline" target="_blank">
+                                    <button class="btn btn-danger mr-1">
+                                      <img width="20" style="color: white;" src="assets/img/svg/github.svg"> Repository
+                                    </button>
+                                  </a>
+                              
+                              </div>
+                              </div>
+                            </div>
+                            
+                            
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+
+                    <div class="tab-pane" id="link4">
+                      <section class="section clouds">
+                        <div class="container">
+                          <div class="row justify-content-between">
+                            <div class="col-md-6">
+                              <div class="card  card-plain">
+                                  <div class="card-header">
+                                      <img src="assets/img/projects/clouds3.png" alt="Clouds: a web app to menage blogs" class="img-center img-fluid">          
+                                  </div>
+                              </div>
+                              
+                            </div>
+                            <div class="col-md-5">
+                              <h1 class="profile-title text-left"></h1>
+                              <h5 class="text-on-back">02</h5>
+                              <p class="profile-description text-left">                            
+                                  Application for creating blogs, posts and comments using a registerable and deletable account.  
+                                <ul>
+                                  <li>Favorite blogs</li>
+                                  <li>Themes of your choice</li>
+                                  <li>Content likes</li>
+                                  <li>A single dynamic page for viewing blogs</li>
+                                  <li>Erasable contents</li>
+                                </ul>
+                              </p>
+                              <div class="btn-wrapper pt-3">
+                                
+                                <p  ><strong>Languages: </strong>HTML, CSS, Javascript, MySQL, PHP</p>
+                                <p  ><strong>Libraries: </strong>jQuery</p>
+                                <a href="https://github.com/faillas/Clouds" target="_blank">
+                                    <button class="btn btn-danger mr-1">
+                                      <img width="20" style="color: white;" src="assets/img/svg/github.svg"> Repository
+                                    </button>
+                                  </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+
+                      <section class="section love-pack">
+                        <div class="container">
+                          <div class="row">
+                              <div class="col-md-6">
+                              <div class="card  card-plain">
+                                <div class="card-header">
+                                  <img
+                                    alt="Love pack: a web app to keep boredom at bay"
+                                    class="card-img"
+                                    src="assets/img/projects/lovepack.png"
+                                  />            </div>                 
+                              </div>
+                          </div>
+                            <div class="col-md-6">
+                              <div class="card card-plain">
+                                <div class="card-header">
+                                  <h1 class="profile-title text-left"></h1>
+                                  <h5 class="text-on-back">06</h5>
+                                </div>
+                                <div class="card-body">
+                                  <p>              
+                                  Love Pack is a small web app designed to turn your free time into an opportunity for connection, play, and well-being.
+                                  The concept is simple: a virtual box of activities that, once opened, randomly selects an action for you to carry out.
+                                  It’s perfect for group games, time spent with friends, moments as a couple, or simply for taking care of yourself.
+                                </p>
+                                <ul>
+                                  <li>Custom CSV upload</li>
+                                  <li>Random extraction of phrases</li>
+                                  <li>“How it works” section accessible at any time</li>
+                                </ul>
+                                <p><strong>Linguaggi: </strong>HTML, CSS, Javascript</p>
+                                <p><strong>Framework: </strong>No dependency</p> 
+                                <a href="https://github.com/faillas/love_pack" target="_blank">
+                                        <button class="btn btn-danger mr-1">
+                                          <img width="20" style="color: white;" src="assets/img/svg/github.svg"> Repository
+                                        </button>
+                                    </a>
+                                <a href="https://faillas.github.io/love_pack/">
+                                        <button class="btn btn-info mr-1"  >
+                                          <img width="20" style="color: white;" src="assets/img/svg/play.svg"> Go to the app (IT)
+                                        </button>
+                                    </a>
+                              
+                              </div>
+                              </div>
+                            </div>
+                            
+                            
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+
+                    <div class="tab-pane" id="link5">
+
+                      <section class="section tesi">
+                          
+                          <div class="container">
+                            <div class="row justify-content-between">
+                              <div class="col-md-6">
+                                <div class="card  card-plain">
+                                  <div class="card-header">
+                                    <img src="assets/img/projects/tesi.png" alt="digital thesis" class="img-center img-fluid">            
+                                  </div>                 
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                              <h1 class="profile-title text-left"></h1>
+                              <h5 class="text-on-back">01</h5>
+                              <p class="profile-description">
+                                  <p>              
+                                      Coding of the degree thesis published via GitHub Pages using the Text Encoding Initiative tools and subsequent transformation into an HTML document with the possibility of:
+                                    </p>
+                                    <ul >
+                                      <li>change reading mode (light/dark)</li>
+                                      <li>scrolling chapters via indexing</li>
+                                      <li>see your reading progress</li>
+                                    </ul>
+                                    <p>
+                                      On this site there is the migration of the original project and its restyling.
+                                    </p
+                                </p>
+                              <div class="btn-wrapper profile pt-3">
+                                <a href="https://github.com/faillas/tesi.github.io" target="_blank">
+                                        <button class="btn btn-danger mr-1">
+                                          <img width="20" style="color: white;" src="assets/img/svg/github.svg"> Repository
+                                        </button>
+                                    </a>
+                              <a href="./thesis.html">
+                                        <button class="btn btn-info mr-1"  >
+                                          <img width="20" style="color: white;" src="assets/img/svg/play.svg"> Go to the thesis (IT)
+                                        </button>
+                                    </a>
+                              </div>
+                            </div>           
+                          </div>
+                            </div>
+                      </section>
+
+                      <section class="section djangogram">
+                        <div class="container">
+                          <div class="row">
+                              <div class="col-md-6">
+                              <div class="card  card-plain">
+                                <div class="card-header">
+                                  <img src="assets/img/projects/djangogram.png" alt="Djangogram" class="img-center img-fluid">            
+                                </div>                 
+                              </div>
+                          </div>
+                            <div class="col-md-6">
+                              <div class="card card-plain">
+                                <div class="card-header">
+                                  <h1 class="profile-title text-left"></h1>
+                                  <h5 class="text-on-back">03</h5>
+                                </div>
+                                <div class="card-body">
+                                  <p>              
+                                  Corpus of Instagram profiles related to the theater in three codings for linguistic and visual analysis through the extraction of:
+                                </p>
+                                <ul>
+                                  <li>hashtag</li>
+                                  <li>tag</li>
+                                  <li>images</li>
+                                  <li>post</li>
+                                  <li>likes number</li>
+                                </ul>
+                                <p  ><strong>Languages: </strong>HTML, Python</p>
+                                <p  ><strong>Framework: </strong>Boostrap, Django</p>
+                                <p  ><strong>Tools: </strong>NLTK, DyLan, Instaloader, Pythonanywhere, Git</p>
+                              <a href="https://github.com/faillas/djangogram" target="_blank">
+                                    <button class="btn btn-danger mr-1">
+                                      <img width="20" style="color: white;" src="assets/img/svg/github.svg"> Repository
+                                    </button>
+                                  </a>  
+                              </div>
+                              </div>
+                            </div>
+                            
+                            
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+
+                    <div class="tab-pane" id="link6">
+                      <section class="section projectwork">
+                        <div class="container">
+                          <div class="row">
+                              <div class="col-md-6">
+                              <div class="card  card-plain">
+                                <div class="card-header">
+                                  <img
+                                    alt="Projectwork: digital fingerprint"
+                                    class="card-img"
+                                    src="assets/img/projectwork.png"
+                                  />            </div>                 
+                              </div>
+                          </div>
+                            <div class="col-md-6">
+                              <div class="card card-plain">
+                                <div class="card-header">
+                                  <h1 class="profile-title text-left"></h1>
+                                  <h5 class="text-on-back">05</h5>
+                                </div>
+                                <div class="card-body">
+                                  <p>            
+                                  The purpose of this technical note is to illustrate the basic functioning of digital fingerprinting, indicate its vulnerabilities and indicate how it is used in digital forensics. Finally, specifically, the use and problems arising from the ABIS (Automated Biometric Information System) biometric system, developed by the American Department of Defense, will be illustrated.
+                                </p>
+                                <p>
+                                  Available online on the CNR People platform.
+                                </p>
+                              
+                              </div>
+                              </div>
+                            </div>
+                            
+                            
+                          </div>
+                        </div>
+                      </section> 
+                    </div>
+                  </div>
+        </div>
+      </div>
+
+    
+
+    </div>
+
+    <div id="passion">
+      <img src="../assets/img/path3.png" class="path">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <hr class="line-info">
+                <h1>Some of my
+                  <span class="text-info">passions</span>
+                </h1>
+              </div>
+            </div>
+        </div>
+
+    <div id="projects">
+       <div>         
            <div class="owl-carousel owl-theme">
             <div class="night-fade rounded item">
               <a data-toggle="modal" data-target="#thesis" style="cursor:pointer">
                 <img style="cursor:pointer"
-                  alt="progetti Simone Failla: tesi digitale"
+                  alt="passioni Simone Failla: romance"
                   class="card-img"
-                  src="assets/img/projects/tesi.png"
+                  src="assets/img/passions/passions - 1.jpg"
                 />
               </a>         
             </div>
@@ -321,9 +1125,9 @@
                 data-toggle="modal"
               >
                 <img
-                  alt="progetti Simone Failla: projectwork"
+                  alt="passioni Simone Failla: Kira"
                   class="card-img"
-                  src="assets/img/projectwork.png"
+                  src="assets/img/passions/passions - 2.jpg"
                 />
               </a>
             </div>
@@ -333,9 +1137,9 @@
                 data-toggle="modal"
               >
                 <img style="cursor:pointer"
-                  alt="progetti Simone Failla: cartoline"
+                  alt="passioni Simone Failla: space and astrology"
                   class="img-fluid rounded-start"
-                  src="assets/img/projects/cartoline.png"
+                  src="assets/img/passions/passions - 3.jpg"
                 />
               </a>
             </div>
@@ -345,9 +1149,9 @@
                 data-toggle="modal"
               >
                 <img style="cursor:pointer"
-                  alt="progetti Simone Failla: Clouds"
+                  alt="passioni Simone Failla: sea"
                   class="card-img"
-                  src="assets/img/projects/clouds3.png"
+                  src="assets/img/passions/passions - 4.jpg"
                 />
               </a>
             </div>
@@ -357,330 +1161,105 @@
                 data-toggle="modal"
                 >
                 <img style="cursor:pointer"
-                  alt="progetti Simone Failla: DjangoGram"
+                  alt="passioni Simone Failla: classical archaeology"
                   class="card-img"
-                  src="assets/img/projects/djangogram.png"
+                  src="assets/img/passions/passions - 5.jpg"
+                />
+              </a>
+            </div>
+            <div class="ripe-malinka rounded item">
+              <a  style="cursor:pointer"            
+                data-target="#djangogram"
+                data-toggle="modal"
+                >
+                <img style="cursor:pointer"
+                  alt="passioni Simone Failla: photography"
+                  class="card-img"
+                  src="assets/img/passions/passions - 6.jpg"
                 />
               </a>
             </div>
           </div>
-   
          </div>
-       </div>
-     </div>
-   
-     <div
-         aria-hidden="true"
-         aria-labelledby="myModalLabel"
-         bsModal
-         class="modal fade"
-         #clouds="bs-modal"
-         id="clouds"
-         role="dialog"
-         tabindex="-1"
-       >
-         <div class="modal-dialog">
-           <div class="modal-content">
-             <div class="modal-header justify-content-center">
-               <button
-                 aria-hidden="true"
-                 class="close"
-                 data-dismiss="modal"
-                 type="button"
-               >
-                 <i class="tim-icons icon-simple-remove"> </i>
-               </button>
-               <h4 class="title title-up text-default">Clouds</h4>
-             </div>
-             <div class="modal-body">
-               <p class="text-default"  >              
-                Application for creating blogs, posts and comments using a registerable and deletable account.
-               </p>
-               <ul class="text-default">
-                <li class="text-default">Favorite blogs</li>
-                <li class="text-default">Themes of your choice</li>
-                <li class="text-default">Content likes</li>
-                <li class="text-default">A single dynamic page for viewing blogs</li>
-                <li class="text-default">Erasable contents</li>
-               </ul>
-               <p  ><strong>Languages: </strong>HTML, CSS, Javascript, MySQL, PHP</p>
-               <p  ><strong>Libraries: </strong>jQuery</p>
-             </div>
-             <div class="modal-footer d-flex justify-content-end text-right">
-               <div class="">
-                 <a href="https://github.com/faillas/Clouds" target="_blank">
-                   <button class="btn btn-danger mr-1">
-                     <img width="20" style="color: white;" src="assets/img/svg/github.svg"> Repository
-                   </button>
-                 </a>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-   
-       <div
-         aria-hidden="true"
-         aria-labelledby="myModalLabel"
-         bsModal
-         class="modal fade"
-         #cartoline="bs-modal"
-         id="cartoline"
-         role="dialog"
-         tabindex="-1"
-       >
-         <div class="modal-dialog">
-           <div class="modal-content">
-             <div class="modal-header justify-content-center">
-               <button
-                 aria-hidden="true"
-                 class="close"
-                 data-dismiss="modal"
-                 type="button"
-               >
-                 <i class="tim-icons icon-simple-remove"> </i>
-               </button>
-               <h4 class="title title-up text-default"  >Postcards</h4>
-             </div>
-             <div class="modal-body">
-               <p class="text-default"  >              
-                Coding of two 19th century postcards at a diplomatic-interpretative level by marking the words:
-               </p>
-               <ul class="text-default">
-                <li class="text-default">archaic</li>
-                <li class="text-default">ruined by the signs of time</li>
-                <li class="text-default">not readable</li>
-               </ul>
-               <p><strong>Languages: </strong>HTML, CSS, Javascript, XML, DTD, XSL</p>
-               <p><strong>Framework: </strong>Bootstrap</p>
-               <p><strong>Tools: </strong> Tei Roma</p>
-             </div>
-             <div class="modal-footer d-flex justify-content-end text-right">
-               <div class="">
-                 <a href="https://github.com/faillas/Cartoline" target="_blank">
-                   <button class="btn btn-danger mr-1">
-                     <img width="20" style="color: white;" src="assets/img/svg/github.svg"> Repository
-                   </button>
-                 </a>
-               </div>
-   
-               <!-- button to https://github.com/faillas/Cartoline repo -->
-             </div>
-           
-           </div>
-         </div>
-       </div>
-   
-       <div
-         aria-hidden="true"
-         aria-labelledby="myModalLabel"
-         bsModal
-         class="modal fade"
-         #djangogram="bs-modal"
-         id="djangogram"
-         role="dialog"
-         tabindex="-1"
-       >
-         <div class="modal-dialog">
-           <div class="modal-content">
-             <div class="modal-header justify-content-center">
-               <button
-                 aria-hidden="true"
-                 class="close"
-                 data-dismiss="modal"
-                 type="button"
-               >
-                 <i class="tim-icons icon-simple-remove"> </i>
-               </button>
-               <h4 class="title title-up text-default"  >Djangogram</h4>
-             </div>
-             <div class="modal-body">
-               <p class="text-default"  >              
-                Corpus of Instagram profiles related to the theater in three codings for linguistic and visual analysis through the extraction of:
-               </p>
-               <ul class="text-default">
-                 <li class="text-default">hashtag</li>
-                 <li class="text-default">tag</li>
-                 <li class="text-default">images</li>
-                 <li class="text-default">post</li>
-                 <li class="text-default">likes number</li>
-               </ul>
-               <p  ><strong>Languages: </strong>HTML, Python</p>
-               <p  ><strong>Framework: </strong>Boostrap, Django</p>
-               <p  ><strong>Tools: </strong>NLTK, DyLan, Instaloader, Pythonanywhere, Git</p>
-             </div>
-             <div class="modal-footer d-flex justify-content-end text-right">
-               <div class="">
-                 <a href="https://github.com/faillas/djangogram" target="_blank">
-                   <button class="btn btn-danger mr-1">
-                     <img width="20" style="color: white;" src="assets/img/svg/github.svg"> Repository
-                   </button>
-                 </a>
-               </div>
-             </div>
-             
-           </div>
-         </div>
-       </div>
-   
-     <div
-         aria-hidden="true"
-         aria-labelledby="myModalLabel"
-         bsModal
-         class="modal fade"
-         #myModal="bs-modal"
-         id="myModal"
-         role="dialog"
-         tabindex="-1"
-       >
-         <div class="modal-dialog">
-           <div class="modal-content">
-             <div class="modal-header justify-content-center">
-               <button
-                 aria-hidden="true"
-                 class="close"
-                 data-dismiss="modal"
-                 type="button"
-               >
-                 <i class="tim-icons icon-simple-remove"> </i>
-               </button>
-               <h4 class="title title-up text-default"  >The Digital Fingerprint</h4>
-             </div>
-             <div class="modal-body">
-               <p   class="text-default">              
-                The purpose of this technical note is to illustrate the basic functioning of digital fingerprinting, indicate its vulnerabilities and indicate how it is used in digital forensics. Finally, specifically, the use and problems arising from the ABIS (Automated Biometric Information System) biometric system, developed by the American Department of Defense, will be illustrated.
-               </p>
-               <p   class="text-default">
-                Available online on the CNR People platform.
-               </p>
-             </div>
-             <div class="modal-footer">
-               
-             </div>
-           </div>
-         </div>
-       </div>
-   
-       <div
-             aria-hidden="true"
-             aria-labelledby="myModalLabel"
-             bsModal
-             class="modal fade"
-             #thesis="bs-modal"
-             id="thesis"
-             role="dialog"
-             tabindex="-1"
-           >
-             <div class="modal-dialog">
-               <div class="modal-content">
-                 <div class="modal-header justify-content-center">
-                   <button
-                     aria-hidden="true"
-                     class="close"
-                     data-dismiss="modal"
-                     type="button"
-                     (click)="thesis.hide()"
-                   >
-                     <i class="tim-icons icon-simple-remove"> </i>
-                   </button>
-                   <h4 class="title title-up text-default"  >Digital Thesis</h4>
-                 </div>
-                 <div class="modal-body">
-                   <p   class="text-default">              
-                    Coding of the degree thesis published via GitHub Pages using the Text Encoding Initiative tools and subsequent transformation into an HTML document with the possibility of:
-                   </p>
-                   <ul class="text-default">
-                    <li class="text-default">change reading mode (light/dark)</li>
-                    <li class="text-default">scrolling chapters via indexing</li>
-                    <li class="text-default">see your reading progress</li>
-                   </ul>
-                   <p  class="text-default">
-                    On this site there is the migration of the original project and its restyling.
-                   </p>
-                 </div>
-                 <div class="modal-footer">
-                   <a href="https://github.com/faillas/tesi.github.io" target="_blank">
-                       <button class="btn btn-danger mr-1">
-                         <img width="20" style="color: white;" src="assets/img/svg/github.svg"> Repository
-                       </button>
-                   </a>
-                   <a href="./thesis.html">
-                       <button class="btn btn-info mr-1"  >
-                         <img width="20" style="color: white;" src="assets/img/svg/play.svg"> Go to the thesis (IT)
-                       </button>
-                   </a>
-                 </div>
-               </div>
-             </div>
-       
-       </div>
-     
-     <footer class="footer">
-       <div class="container">
-         <div class="row">
-           <div class="col-md-3">
-             <span class="text-white">© 2024&nbsp;|&nbsp;developed with </span><img width="20" style="color: white;" src="assets/img/svg/github-mark-white.svg"></a>
-           </div>        
-         </div>
-       </div>
-     </footer>
-   </div>
-   <!--   Core JS Files   -->
-   <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
-   <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-   <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-   <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-   <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-   <script src="./assets/js/plugins/bootstrap-switch.js"></script>
-   <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-   <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-   <!-- Chart JS -->
-   <script src="./assets/js/plugins/chartjs.min.js"></script>
-   <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
-   <script src="./assets/js/plugins/moment.min.js"></script>
-   <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
-   <!-- Black Dashboard DEMO methods, don't include it in your project! -->
-   <script src="./assets/demo/demo.js"></script>
-   <!-- Control Center for Black UI Kit: parallax effects, scripts for the example pages etc -->
-   <script src="./assets/js/blk-design-system.min.js?v=1.0.0" type="text/javascript"></script>
-   <script src="./assets/js/aos.js" type="text/javascript"></script>
-   <script>
-     $(document).ready(function() {
-       blackKit.initDatePicker();
-       blackKit.initSliders();
-       $(".owl-carousel").owlCarousel({
+    </div>    
+    
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <span class="text-white">© 2024&nbsp;|&nbsp;developed with </span>
+            <img width="20" style="filter: brightness(0) invert(1); margin-left: 10px; margin-right: 10px;" src="assets/img/svg/github.svg">
+            <img width="20" style="filter: brightness(0) invert(1); margin-left: 10px; margin-right: 10px;" src="assets/img/svg/javascript.svg">
+            <img width="20" style="filter: brightness(0) invert(1); margin-left: 10px; margin-right: 10px;" src="assets/img/svg/css.svg">  
+          </div>        
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!--   Core JS Files   -->
+  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+  <script src="./assets/js/plugins/bootstrap-switch.js"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!-- Chart JS -->
+  <script src="./assets/js/plugins/chartjs.min.js"></script>
+  <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+  <script src="./assets/js/plugins/moment.min.js"></script>
+  <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+  <!-- Black Dashboard DEMO methods, don't include it in your project! -->
+  <script src="./assets/demo/demo.js"></script>
+  <!-- Control Center for Black UI Kit: parallax effects, scripts for the example pages etc -->
+  <script src="./assets/js/blk-design-system.min.js?v=1.0.0" type="text/javascript"></script>
+  <script src="./assets/js/aos.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() {
+      blackKit.initDatePicker();
+      blackKit.initSliders();
+      $(".owl-carousel").owlCarousel({
         center: true,
-        items:2,
+        items:1,
         loop:true,
-        margin:10,
+        dots: false,
+        margin:0,
         responsive:{
             0:{
-                items:2,
+                items:1,
             },
             600:{
-                items:3,
+                items:1,
             },
             1000:{
-                items:5
+                items:1
             }
         }
       });
-     });
- 
-     function scrollToDownload() {
- 
-       if ($('.section-download').length != 0) {
-         $("html, body").animate({
-           scrollTop: $('.section-download').offset().top
-         }, 1000);
-       }
-     }
-     AOS.init();
+    });
 
-    </script>
-    <script src="./assets/js/works.js" type="text/javascript"></script>
-    <script src="./assets/js/owl.carousel.min.js"></script>
- </body>
- 
- </html>
- 
+    function scrollToDownload() {
+
+      if ($('.section-download').length != 0) {
+        $("html, body").animate({
+          scrollTop: $('.section-download').offset().top
+        }, 1000);
+      }
+    }
+    AOS.init();
+
+    
+  </script>
+  <script src="../assets/demo/demo.js"></script>
+    <script>
+    $(document).ready(function() {
+      // Javascript method's body can be found in assets/assets-for-demo/js/demo.js
+      demo.initLandingPageChart();
+    });
+  </script>
+  <script src="./assets/js/works.js" type="text/javascript"></script>
+  <script src="./assets/js/owl.carousel.min.js"></script>
+</body>
+
+</html>
