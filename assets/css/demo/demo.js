@@ -71,7 +71,7 @@ demo = {
       type: 'line',
       responsive: true,
       data: {
-        labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        labels: ["Azul Teatro", "Hibo s.r.l.", "Sinergystudio s.rl.", "ITmind s.r.l.", "Università di Pisa"],
         datasets: [{
           label: "Active Users",
           borderColor: "#f96332",
@@ -84,7 +84,7 @@ demo = {
           fill: true,
           backgroundColor: gradientFill,
           borderWidth: 2,
-          data: [542, 480, 430, 550, 530, 453, 380, 434, 568, 610, 700, 630]
+          data: [542, 480, 430, 550]
         }]
       },
       options: gradientChartOptionsConfiguration
@@ -103,9 +103,16 @@ demo = {
       type: 'line',
       responsive: true,
       data: {
-        labels: ["JUN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"],
+        labels: ["Azul Teatro", "Hibo s.r.l.", "Sinergystudio s.rl.", "ITmind s.r.l.", "Università di Pisa"],
         datasets: [{
-          label: "Data",
+          label: "Ruolo",
+          roles: [
+            "Social Media Manager",
+            "Web Developer",
+            "Software Developer",
+            "Web & Mobile Developer",
+            "Instructional Designer"
+          ],
           fill: true,
           backgroundColor: gradientFill,
           borderColor: '#e44cc4',
@@ -120,7 +127,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [80, 160, 200, 160, 250, 280, 220, 190, 200, 250, 290, 320]
+          data: ["30", "90", "190", "490", "670"]
         }]
       },
       options: {
@@ -137,7 +144,13 @@ demo = {
           xPadding: 12,
           mode: "nearest",
           intersect: 0,
-          position: "nearest"
+          position: "nearest",
+          callbacks: {
+            label: function(tooltipItem, data) {
+              return data.datasets[tooltipItem.datasetIndex]
+                .roles[tooltipItem.index];
+            }
+          }
         },
         responsive: true,
         scales: {
