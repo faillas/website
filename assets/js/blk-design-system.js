@@ -141,19 +141,33 @@ function hiddenNavbarCollapse($this) {
 
 // Events
 
-if ($collapse.length) {
-  $collapse.on({
-    'hide.bs.collapse': function() {
-      hideNavbarCollapse($collapse);
-    }
-  })
+// if ($collapse.length) {
+  //$collapse.on({
+    //'hide.bs.collapse': function() {
+     // hideNavbarCollapse($collapse);
+    //}
+  //})
 
-  $collapse.on({
-    'hidden.bs.collapse': function() {
-      hiddenNavbarCollapse($collapse);
-    }
-  })
-}
+  //$collapse.on({
+    //'hidden.bs.collapse': function() {
+    //  hiddenNavbarCollapse($collapse);
+    //}
+  //})
+//}
+
+$('.navbar .collapse').each(function() {
+
+    var $this = $(this);
+
+    $this.on('hide.bs.collapse', function() {
+        hideNavbarCollapse($this);
+    });
+
+    $this.on('hidden.bs.collapse', function() {
+        hiddenNavbarCollapse($this);
+    });
+
+});
 
 
 // Returns a function, that, as long as it continues to be invoked, will not
