@@ -71,7 +71,7 @@ demo = {
       type: 'line',
       responsive: true,
       data: {
-        labels: ["Azul Teatro", "Hibo s.r.l.", "Sinergystudio s.rl.", "ITmind s.r.l."],
+        labels: ["Azul Teatro", "Hibo s.r.l.", "Sinergystudio s.rl.", "ITmind s.r.l.", "Università di Pisa"],
         datasets: [{
           label: "Active Users",
           borderColor: "#f96332",
@@ -103,14 +103,15 @@ demo = {
       type: 'line',
       responsive: true,
       data: {
-        labels: ["Azul Teatro", "Hibo s.r.l.", "Sinergystudio s.rl.", "ITmind s.r.l."],
+        labels: ["Azul Teatro", "Hibo s.r.l.", "Sinergystudio s.rl.", "ITmind s.r.l.", "Università di Pisa"],
         datasets: [{
           label: "Ruolo",
           roles: [
             "Social Media Manager",
             "Web Developer",
             "Software Developer",
-            "Web & Mobile Developer"
+            "Web & Mobile Developer",
+            "Instructional Designer"
           ],
           fill: true,
           backgroundColor: gradientFill,
@@ -126,7 +127,7 @@ demo = {
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: ["80", "160", "200", "360"]
+          data: ["30", "90", "190", "490", "670"]
         }]
       },
       options: {
